@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    max-width: 1920px;
+
+    background: rgba(22, 40, 49, 1);
+}
+
+.container{
+    margin: 0 312px;
+}
+
+@media(max-width:1919px) {
+    .container{
+        margin:0 100px;
+    }
+}
+
+/* /.header */
+
+.header{
+    margin-top: 30px;
+}
+
+.header__holder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 34px;
+    border-bottom: 1px solid gray;
+ 
+}
+
+
+.header__nav a{
+    color: #fff;
+    text-decoration: none;
+
+    transition:color 0.2s linear ;
+
+    padding-left: 50px;
+}
+
+      .header__nav a:hover{
+            color: rgb(98, 18, 18);
+        }
+
+
+        .header__btn{
+            border-radius: 3px;
+        
+            text-decoration: none;
+            transition: background 0.3s linear;
+        
+            padding: 9px 15px ;
+        
+            color: #fff;
+            background: rgba(1, 138, 190, 1);
+        }
+        
+        
+            .header__btn:hover{
+                background: #fff;
+                color: rgba(1, 138, 190, 1);
+            }
+
+
+
+/* /.format */
+.format{
+    color: #fff;
+    margin-top: 60px;
+}
+
+
+.format__name{
+    text-align: center;
+}
+
+    .format__name span{
+        margin: 0 45px;
+
+        font-weight: 700;
+        font-size: 42px;
+    }
+
+
+.format__content{
+    display: flex;
+    margin-top: 60px;
+}
+
+
+.format__content span{
+    padding: 6px 12px;
+
+    background: rgba(1, 138, 190, 1);
+    border-radius: 5px;
+}
+
+
+.left__content{
+    padding-right: 172px;
+}
+
+.content__suptitle{
+    margin-top: 45px;
+
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.content__subtitle{
+    margin-top: 30px;
+
+    font-weight: 300;
+    font-size: 16px;
+}
+
+
+.content__right{
+    margin-top: 40px;
+}
+
+
+/* Footer */
+
+.footer{
+    margin-top: 120px;
+}
+
+.footer__block{
+    border-top: 1px solid gray;
+}
+
+.footer__block{
+    display: flex;
+    justify-content: space-between;
+
+    color: #fff;
+
+    margin-bottom: 30px;
+    padding-top: 30px;
+}

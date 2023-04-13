@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    max-width: 1920px;
+
+    background: rgba(22, 40, 49, 1);
+}
+
+.container{
+    margin: 0 312px;
+}
+
+@media(max-width:1919px) {
+    .container{
+        margin:0 100px;
+    }
+}
+/* /.header */
+
+.header{
+    margin-top: 30px;
+}
+
+.header__holder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 34px;
+    border-bottom: 1px solid gray;
+ 
+}
+
+
+.header__nav a{
+    color: #fff;
+    text-decoration: none;
+
+    transition:color 0.2s linear ;
+
+    padding-left: 50px;
+}
+
+      .header__nav a:hover{
+            color: rgb(98, 18, 18);
+        }
+
+
+        .header__btn{
+            border-radius: 3px;
+        
+            text-decoration: none;
+            transition: background 0.3s linear;
+        
+            padding: 9px 15px ;
+        
+            color: #fff;
+            background: rgba(1, 138, 190, 1);
+        }
+        
+        
+            .header__btn:hover{
+                background: #fff;
+                color: rgba(1, 138, 190, 1);
+            }
+
+
+/* News */
+
+.news{
+    margin-top: 60px;
+    color: #fff;
+}
+
+.news__title{
+    text-align: center;
+
+    font-weight: 700;
+    font-size: 42px;
+}
+    .news__title span{
+        margin: 0 45px;
+    }
+
+.news__cards{
+    margin-top: 60px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: url(../image/session/2.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    flex-basis: 25%;
+    margin: 10px;
+
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s linear, opacity 0.3s linear;
+}
+
+    .card:hover{
+        transform: translate(-3%, -3%);
+        opacity:0.8;
+    }
+
+    .card span{
+        background: rgba(1, 138, 190, 1);
+
+        border-radius: 5px;
+
+        padding:6px 12px ;
+    }
+
+
+.card__date{
+    padding: 30px 273px 0 35px;
+}
+
+.card__sub{
+    padding:145px 0 30px 35px;
+    font-weight: 700;
+    font-size: 21px;
+}
+
+/* Footer */
+
+.footer{
+    margin-top: 120px;
+}
+
+.footer__block{
+    border-top: 1px solid gray;
+}
+
+.footer__block{
+    display: flex;
+    justify-content: space-between;
+
+    color: #fff;
+
+    margin-bottom: 30px;
+    padding-top: 30px;
+}

@@ -1,0 +1,436 @@
+body{
+    margin: 0;
+    max-width: 1920px;
+
+    background: rgba(22, 40, 49, 1);
+}
+
+.container{
+    margin: 0 312px;
+}
+
+@media(max-width:1919px) {
+    .container{
+        margin:0 100px;
+    }
+}
+
+.namer{
+    margin-top: 150px;
+
+    font-weight: 700;
+    font-size: 42px;
+
+    text-align: center;
+}
+
+    .namer span{
+        margin: 0 45px;
+    }
+
+
+.holder{
+    margin-top: 100px;
+}
+
+/* /.header */
+
+.header{
+    margin-top: 30px;
+}
+
+.header__holder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.header__nav a{
+    color: #fff;
+    text-decoration: none;
+
+    transition:color 0.2s linear ;
+
+    padding-left: 50px;
+}
+
+        .header__nav a:hover{
+            color: rgb(98, 18, 18);
+        }
+
+
+
+
+.header__btn{
+    border-radius: 3px;
+
+    text-decoration: none;
+    transition: background 0.3s linear;
+
+    padding: 9px 15px ;
+
+    color: #fff;
+    background: rgba(1, 138, 190, 1);
+}
+
+
+        .header__btn:hover{
+            background: #fff;
+            color: rgba(1, 138, 190, 1);
+        }
+
+
+
+/* /.aqua */
+
+.aqua{
+    margin-top: 50px;
+}
+
+.aqua__holder{
+    background: url(../image/aqua/aqua__logo.png) no-repeat;
+}
+
+.aqua__holder{
+    text-align: center;
+    padding:136px 355px 210px 355px ;
+
+    border-radius: 10px;
+}
+
+
+.aqua__suptitle span{
+    margin: 0 66px;
+
+    font-weight: 700;
+    font-size: 24px;
+
+    color: #fff;
+}
+
+
+.aqua__subtitle{
+    margin-top: 40px;
+
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 140%;
+
+    color: #fff;
+}
+
+
+
+
+
+/* Sessions */
+
+
+.sessions{
+    margin-top: 150px;
+    color: #fff;
+}
+
+
+
+
+.session__cards{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+
+.left__card{
+    padding: 456px 108px 50px 50px;
+    margin:10px ;
+
+    border-radius: 10px;
+
+    background: url(../image/session/1.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    cursor: pointer;
+
+    transition: transform 0.3s linear, opacity 0.3s linear;
+
+}
+
+
+.left__card:hover{
+    transform:translate(-3%, -3%);
+    opacity:0.8;
+}
+
+    .left__card a{
+        text-decoration: none;
+        color: #fff;
+        font-weight: 700;
+        font-size: 24px;
+
+        white-space:nowrap;
+    }
+
+
+.right__cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.right__card{
+    flex-basis: 33%;
+
+    border-radius: 10px;
+
+    margin: 10px;
+    padding: 194px 40px 30px 40px ;
+
+    background: url(../image/session/1.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    font-weight: 700;
+    font-size: 24px;
+
+    cursor: pointer;
+
+    transition: transform 0.3s linear, opacty 0.3s linear;
+}
+
+.right__card:hover{
+    transform:translate(-3%, -3%);
+    opacity: 0.8;
+}
+
+
+/* reviews */
+
+.reviews{
+    margin-top: 150px;
+    color: #fff;
+}
+
+
+
+
+.reviews__cards{
+display: flex;
+justify-content: center;
+}
+
+
+.reviews__card{
+    background: rgba(1, 138, 190, 1);
+    border-radius: 10px;
+}
+
+
+.reviews__card-title{
+padding:50px 60px 50px 60px ;
+
+}
+
+.revievs__card-suptitle{
+    font-weight: 700;
+    font-size: 20px;
+    
+}
+
+.reviews__card-subtitle{
+    color: rgba(255, 255, 255, 1);
+    opacity: 0.8;
+
+    width: 500px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.reviews__button{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+    .rev-img{
+        margin-left: 5px;
+    }
+
+
+/* Desc__ritm */
+
+.desc__ritm{
+    margin-top: 150px;
+    color: #fff;
+}
+
+
+.desc__version{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin-top: 100px;
+}
+
+.version__title{
+    flex-basis: 33%;
+    padding:50px 80px 50px 80px;
+}
+
+
+
+    .version__suptitle{
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+
+    .version__subtitle{
+        margin-top: 30px;
+
+        font-weight: 300;
+        font-size: 16px;
+    }
+
+
+.version__image{
+    flex-basis: 22%;
+    padding: 30px;
+}
+
+
+/* Price */
+
+.price{
+    color: #fff;
+    
+    margin-top: 150px;
+}
+
+    .price__left img{
+        margin-right: 20px;
+    }
+
+
+.price__left-title{
+    margin-top: 31px;
+    display: flex;
+    justify-content: space-between;
+
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+.price__left-subtitle{
+    margin-left: 90px;
+    margin-right: 135px;
+    font-weight: 800;
+}
+
+.price__block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.price__right-subscript{
+    margin-top: 30px;
+
+    font-weight: 700;
+    font-size: 21px;
+
+    text-align: center;
+}
+
+
+/* Map */
+
+.map{
+    margin-top: 150px;
+}
+
+.map__block{
+    display: flex;
+}
+
+.map__cards{
+    margin-left: 50px;
+    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+.map__card{
+    color: #fff;
+    background: rgba(1, 138, 190, 1);
+    border-radius: 10px;
+
+    padding:35px 150px 0 45px ;
+}
+
+.map__card-head{
+    font-weight: 700;
+    font-size: 24px;
+    white-space:nowrap;
+}
+
+    .map__card-main div{
+        display: flex;
+        align-items: center;
+        padding-top: 30px;
+
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .map__card-main span{
+        margin-left: 22px;
+    }
+
+
+
+.map__card-foot{
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
+
+
+    .map__card-foot a{
+        text-decoration: none;
+        border-radius: 3px;
+
+        color: rgba(1, 138, 190, 1);
+        background: #fff;
+
+        padding: 9px 15px;
+
+        transition: background 0.3s linear,
+        color 0.2s linear;
+    }
+
+    .map__card-foot a:hover{
+        background: rgba(22, 40, 49, 1);
+        color: #fff;
+    }
+
+
+    /* /footer */
+.footer__block{
+    display: flex;
+    justify-content: space-between;
+
+    color: #fff;
+
+    margin-bottom: 30px;
+}
